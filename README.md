@@ -1,2 +1,2 @@
 # delta-foxtrot-website
-DFIMS Website Reository
+DFIMS Website Repository
