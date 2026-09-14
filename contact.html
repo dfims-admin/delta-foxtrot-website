@@ -102,13 +102,16 @@
 
             </div>
 
-            <!-- Right Column: Interactive Consultation Form -->
+            <!-- Right Column: Netlify Forms Enabled Consultation Form -->
             <div class="md:col-span-7">
                 <div class="bg-neutral-900 border-2 border-neutral-500 p-8 sm:p-10 rounded-sm bg-dots-pattern shadow-2xl">
                     <h2 class="text-xl font-black text-white uppercase mb-2">Send an Inquiry</h2>
                     <p class="text-neutral-300 text-xs mb-8">Fill out the details below to outline your objectives or media pitch.</p>
 
-                    <form action="https://formspree.io/f/placeholder" method="POST" class="space-y-6">
+                    <!-- Netlify Form Integration -->
+                    <form name="contact" method="POST" data-netlify="true" class="space-y-6">
+                        <input type="hidden" name="form-name" value="contact" />
+
                         <div class="grid sm:grid-cols-2 gap-6">
                             <div>
                                 <label class="block text-[11px] font-mono uppercase text-neutral-300 mb-2">Full Name *</label>
