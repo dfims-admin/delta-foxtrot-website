@@ -4,130 +4,185 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delta Foxtrot Industrial Marketing Service</title>
-    <!-- Tailwind CSS CDN for instant, professional styling -->
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-slate-900 text-slate-100 font-sans antialiased">
+<body class="bg-black text-slate-100 font-sans antialiased selection:bg-slate-700 selection:text-white">
 
-    <!-- Navigation Header -->
-    <header class="border-b border-slate-800 bg-slate-950/80 sticky top-0 z-50 backdrop-blur">
-        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="text-xl font-bold tracking-wider text-amber-500 uppercase">
-                Delta Foxtrot <span class="text-slate-300 font-light text-sm block sm:inline">IMS</span>
-            </div>
-            <nav class="space-x-6 text-sm font-medium">
-                <a href="index.html" class="text-amber-500 hover:text-amber-400">Home</a>
-                <a href="#services" class="text-slate-300 hover:text-amber-500 transition">Services</a>
-                <a href="#contact" class="text-slate-300 hover:text-amber-500 transition">Contact</a>
+    <!-- Header / Navigation -->
+    <header class="border-b border-slate-800 bg-black/90 sticky top-0 z-50 backdrop-blur">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+            <!-- Logo area -->
+            <a href="index.html" class="flex items-center gap-4 group">
+                <img src="DFIMS Vertical.png" alt="Delta Foxtrot Industrial Marketing Service Logo" class="h-10 w-auto invert">
+                <span class="text-sm font-bold tracking-wider text-white uppercase border-l border-slate-800 pl-4 py-1">
+                    Delta Foxtrot Industrial Marketing Service
+                </span>
+            </a>
+            
+            <nav class="flex items-center space-x-6 text-xs font-semibold uppercase tracking-wider">
+                <a href="#about" class="text-slate-400 hover:text-white transition">Experience</a>
+                <a href="#solutions" class="text-slate-400 hover:text-white transition">Solutions</a>
+                <a href="#contact" class="bg-white text-black px-4 py-2 rounded hover:bg-slate-200 transition">Contact Us</a>
             </nav>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="max-w-6xl mx-auto px-6 py-24 text-center sm:text-left grid md:grid-cols-2 gap-12 items-center">
-        <div>
-            <span class="text-amber-500 font-semibold tracking-widest text-xs uppercase bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20">Industrial Growth Strategy</span>
-            <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-white mt-4 leading-tight">
-                Data-Driven Marketing Built for Modern Industry.
-            </h1>
-            <p class="mt-4 text-slate-400 text-lg">
-                Delta Foxtrot Industrial Marketing Service helps commercial & industrial firms capture qualified leads, scale revenue, and dominate their sector.
-            </p>
-            <div class="mt-8 flex flex-col sm:flex-row gap-4">
-                <a href="#contact" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold px-6 py-3 rounded-lg transition text-center">
-                    Request a Strategy Session
-                </a>
-                <a href="#services" class="border border-slate-700 hover:border-slate-500 text-slate-300 px-6 py-3 rounded-lg transition text-center">
-                    Explore Our Services
-                </a>
+    <section class="max-w-6xl mx-auto px-6 py-20 border-b border-slate-900">
+        <div class="grid md:grid-cols-12 gap-12 items-center">
+            <div class="md:col-span-7">
+                <span class="text-xs font-mono tracking-widest text-slate-400 uppercase border border-slate-800 px-3 py-1 bg-slate-950">
+                    B2B Industrial & Manufacturing Growth
+                </span>
+                <h1 class="text-4xl sm:text-5xl font-black tracking-tight text-white mt-6 leading-tight uppercase">
+                    From Shop Floor Execution to Top-Floor Revenue Strategy.
+                </h1>
+                <p class="mt-6 text-slate-400 text-base sm:text-lg leading-relaxed">
+                    Most marketing agencies don't understand tolerance limits, assembly lines, or complex B2B sales cycles. Delta Foxtrot Industrial Marketing Service bridges the gap between technical industrial operations and high-impact commercial growth.
+                </p>
+                <div class="mt-8 flex flex-col sm:flex-row gap-4">
+                    <a href="#contact" class="bg-white text-black font-bold px-6 py-3.5 rounded text-sm uppercase tracking-wider hover:bg-slate-200 transition text-center">
+                        Schedule a Consultation
+                    </a>
+                    <a href="#about" class="border border-slate-800 text-slate-300 font-bold px-6 py-3.5 rounded text-sm uppercase tracking-wider hover:border-slate-600 transition text-center">
+                        Our Operational Background
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="bg-slate-800/50 border border-slate-700/50 p-8 rounded-2xl shadow-xl">
-            <h3 class="text-lg font-semibold text-white mb-2">Why Partner With DFIMS?</h3>
-            <ul class="space-y-4 text-slate-300 text-sm mt-4">
-                <li class="flex items-start">
-                    <span class="text-amber-500 font-bold mr-3">✓</span>
-                    <span><strong>Industrial Focus:</strong> We speak B2B, manufacturing, and commercial service language.</span>
-                </li>
-                <li class="flex items-start">
-                    <span class="text-amber-500 font-bold mr-3">✓</span>
-                    <span><strong>Targeted Lead Gen:</strong> High-intent prospect capture designed specifically for your ideal accounts.</span>
-                </li>
-                <li class="flex items-start">
-                    <span class="text-amber-500 font-bold mr-3">✓</span>
-                    <span><strong>Transparent ROI:</strong> Clear, measurable metrics tied directly to business outcomes.</span>
-                </li>
-            </ul>
+            
+            <div class="md:col-span-5 bg-slate-950 border border-slate-800 p-8 rounded-lg">
+                <h3 class="text-sm font-bold uppercase tracking-wider text-white border-b border-slate-800 pb-3 mb-4">
+                    Direct Senior Expertise
+                </h3>
+                <p class="text-slate-400 text-xs leading-relaxed mb-6">
+                    No account managers or delegated junior staff. You partner directly with the owner on every strategy, campaign, and technical deliverable.
+                </p>
+                <div class="space-y-4 text-xs">
+                    <div class="flex items-start gap-3">
+                        <span class="text-white font-mono font-bold">01/</span>
+                        <span class="text-slate-300"><strong class="text-white">Built on Experience:</strong> 15+ years spanning fabrication, assembly leadership, marketing management, and executive operations.</span>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-white font-mono font-bold">02/</span>
+                        <span class="text-slate-300"><strong class="text-white">Technical Fluency:</strong> Speaks the language of engineers, procurement officers, and plant managers.</span>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-white font-mono font-bold">03/</span>
+                        <span class="text-slate-300"><strong class="text-white">Selective Partnerships:</strong> Lean, high-touch model prioritizing dedicated focus over volume.</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Services Overview -->
-    <section id="services" class="border-t border-slate-800 bg-slate-950 py-20">
+    <!-- Problem & Solution Section -->
+    <section id="solutions" class="py-20 border-b border-slate-900 bg-slate-950">
         <div class="max-w-6xl mx-auto px-6">
-            <div class="text-center max-w-2xl mx-auto">
-                <h2 class="text-3xl font-bold text-white">Our Core Capabilities</h2>
-                <p class="text-slate-400 mt-2">Tailored marketing solutions designed to navigate complex industrial buyer journeys.</p>
+            <div class="max-w-3xl">
+                <h2 class="text-xs font-mono uppercase tracking-widest text-slate-400">Solving Real Industrial Challenges</h2>
+                <h3 class="text-3xl font-extrabold text-white mt-2 uppercase">Industrial Marketing Engineering</h3>
             </div>
 
             <div class="grid md:grid-cols-3 gap-8 mt-12">
-                <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl">
-                    <div class="text-amber-500 text-2xl font-bold mb-3">01</div>
-                    <h3 class="text-xl font-bold text-white mb-2">Lead Generation</h3>
-                    <p class="text-slate-400 text-sm">Strategic multi-channel funnels engineered to drive high-value commercial inquiries straight to your inbox.</p>
+                <div class="border border-slate-800 p-6 bg-black rounded">
+                    <div class="text-xs font-mono text-slate-500 mb-2">PROBLEM / SOLUTION</div>
+                    <h4 class="text-lg font-bold text-white mb-3">Complex Technical Products</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed">
+                        Generic marketing misses technical nuance. We translate shop-floor engineering into high-converting messaging that resonates with B2B buyers and decision-makers.
+                    </p>
                 </div>
-                <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl">
-                    <div class="text-amber-500 text-2xl font-bold mb-3">02</div>
-                    <h3 class="text-xl font-bold text-white mb-2">Industrial SEO</h3>
-                    <p class="text-slate-400 text-sm">Optimize your online presence so key decision-makers find your solutions when actively searching.</p>
+                <div class="border border-slate-800 p-6 bg-black rounded">
+                    <div class="text-xs font-mono text-slate-500 mb-2">PROBLEM / SOLUTION</div>
+                    <h4 class="text-lg font-bold text-white mb-3">Low-Quality Sales Leads</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed">
+                        Eliminate wasted ad spend. We design targeted digital lead-generation funnels engineered specifically to capture high-intent commercial inquiries.
+                    </p>
                 </div>
-                <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl">
-                    <div class="text-amber-500 text-2xl font-bold mb-3">03</div>
-                    <h3 class="text-xl font-bold text-white mb-2">Brand & Strategy</h3>
-                    <p class="text-slate-400 text-sm">Position your operational expertise with authority through clean design and messaging.</p>
+                <div class="border border-slate-800 p-6 bg-black rounded">
+                    <div class="text-xs font-mono text-slate-500 mb-2">PROBLEM / SOLUTION</div>
+                    <h4 class="text-lg font-bold text-white mb-3">Invisible Web Presence</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed">
+                        If buyers can't find your capabilities, you don't get quoted. We deploy technical B2B SEO and custom website architecture built for market dominance.
+                    </p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience / About Section -->
+    <section id="about" class="max-w-6xl mx-auto px-6 py-20 border-b border-slate-900">
+        <div class="grid md:grid-cols-12 gap-12 items-center">
+            <div class="md:col-span-5 flex justify-center">
+                <img src="DFIMS Stacked.png" alt="Delta Foxtrot Industrial Marketing Service Icon" class="w-64 h-auto invert opacity-90">
+            </div>
+            <div class="md:col-span-7">
+                <h2 class="text-xs font-mono uppercase tracking-widest text-slate-400">Owner & Operator</h2>
+                <h3 class="text-3xl font-black text-white mt-2 uppercase">Grounded in Discipline & Execution</h3>
+                <p class="text-slate-300 text-sm leading-relaxed mt-4">
+                    Founded by Dustin Flynn, Delta Foxtrot Industrial Marketing Service was built on a foundation of real-world operational execution. 
+                </p>
+                <p class="text-slate-400 text-xs leading-relaxed mt-3">
+                    Dustin's career spans from serving as a U.S. Army Airborne Engineer to hands-on industrial manufacturing roles as a Break Press Operator, Housing Department Team Lead, and Inbound Marketing Specialist at Hy-Pro Filtration. He previously served as Director of Marketing and Account Manager at TTI, Marketing Manager at Zinga Industries, and Chief Operating Officer at MTAC. 
+                </p>
+                <p class="text-slate-400 text-xs leading-relaxed mt-3">
+                    Backed by a Bachelor's Degree in Entrepreneurial Management from Ball State University and specialized credentials in Emerging Media and Digital Marketing, Delta Foxtrot combines academic discipline with practical industry knowledge.
+                </p>
             </div>
         </div>
     </section>
 
     <!-- Contact & Lead Form -->
     <section id="contact" class="max-w-4xl mx-auto px-6 py-20">
-        <div class="bg-slate-800/40 border border-slate-700 p-8 sm:p-12 rounded-2xl">
+        <div class="bg-slate-950 border border-slate-800 p-8 sm:p-12 rounded">
             <div class="text-center mb-8">
-                <h2 class="text-3xl font-bold text-white">Get Started with Delta Foxtrot</h2>
-                <p class="text-slate-400 mt-2">Fill out the form below to discuss your growth goals.</p>
+                <h2 class="text-2xl font-black text-white uppercase">Request a Strategic Consultation</h2>
+                <p class="text-slate-400 text-xs mt-2">Partner directly with Delta Foxtrot Industrial Marketing Service to scale your commercial presence.</p>
             </div>
 
+            <!-- Form ready for Netlify integration -->
             <form action="https://formspree.io/f/placeholder" method="POST" class="space-y-6">
                 <div class="grid sm:grid-cols-2 gap-6">
                     <div>
-                        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">Your Name</label>
-                        <input type="text" name="name" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-amber-500">
+                        <label class="block text-xs font-mono uppercase text-slate-300 mb-2">Full Name</label>
+                        <input type="text" name="name" required class="w-full bg-black border border-slate-800 rounded px-4 py-3 text-sm text-white focus:outline-none focus:border-white">
                     </div>
                     <div>
-                        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">Work Email</label>
-                        <input type="email" name="email" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-amber-500">
+                        <label class="block text-xs font-mono uppercase text-slate-300 mb-2">Work Email</label>
+                        <input type="email" name="email" required class="w-full bg-black border border-slate-800 rounded px-4 py-3 text-sm text-white focus:outline-none focus:border-white">
+                    </div>
+                </div>
+
+                <div class="grid sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-mono uppercase text-slate-300 mb-2">Company Name</label>
+                        <input type="text" name="company" required class="w-full bg-black border border-slate-800 rounded px-4 py-3 text-sm text-white focus:outline-none focus:border-white">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-mono uppercase text-slate-300 mb-2">Primary Objective</label>
+                        <select name="objective" class="w-full bg-black border border-slate-800 rounded px-4 py-3 text-sm text-white focus:outline-none focus:border-white">
+                            <option value="lead-gen">B2B Lead Generation</option>
+                            <option value="seo">Industrial SEO & Search</option>
+                            <option value="brand">Brand Strategy & Positioning</option>
+                            <option value="other">Full Ecosystem Audit</option>
+                        </select>
                     </div>
                 </div>
 
                 <div>
-                    <label class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">Company Name</label>
-                    <input type="text" name="company" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-amber-500">
+                    <label class="block text-xs font-mono uppercase text-slate-300 mb-2">Project Details / Goals</label>
+                    <textarea name="message" rows="4" required class="w-full bg-black border border-slate-800 rounded px-4 py-3 text-sm text-white focus:outline-none focus:border-white"></textarea>
                 </div>
 
-                <div>
-                    <label class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">How Can We Help?</label>
-                    <textarea name="message" rows="4" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-amber-500"></textarea>
-                </div>
-
-                <button type="submit" class="w-full bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold py-4 rounded-lg transition">
-                    Send Inquiry
+                <button type="submit" class="w-full bg-white hover:bg-slate-200 text-black font-black py-4 rounded text-xs uppercase tracking-widest transition">
+                    Submit Inquiry
                 </button>
             </form>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="border-t border-slate-800 text-center py-8 text-slate-500 text-xs">
+    <footer class="border-t border-slate-900 text-center py-8 text-slate-600 text-xs font-mono">
         <p>&copy; Delta Foxtrot Industrial Marketing Service. All rights reserved.</p>
     </footer>
 
