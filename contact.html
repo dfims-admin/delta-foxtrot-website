@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Delta Foxtrot Industrial Marketing Service</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .bg-grid-pattern {
+            background-size: 40px 40px;
+            background-image: 
+                linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+        }
+        .bg-dots-pattern {
+            background-size: 20px 20px;
+            background-image: radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+        }
+    </style>
+</head>
+<body class="bg-neutral-950 text-neutral-100 font-sans antialiased selection:bg-neutral-800 selection:text-white">
+
+    <!-- Header / Navigation -->
+    <header class="border-b-2 border-neutral-700 bg-neutral-950/90 sticky top-0 z-50 backdrop-blur">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+            <a href="index.html" class="flex items-center gap-4">
+                <img src="DFIMS Vertical.png" alt="Delta Foxtrot Industrial Marketing Service Logo" class="h-10 w-auto invert">
+                <span class="text-sm font-bold tracking-wider text-white uppercase border-l-2 border-neutral-700 pl-4 py-1">
+                    Delta Foxtrot Industrial Marketing Service
+                </span>
+            </a>
+            
+            <nav class="flex items-center space-x-6 text-xs font-semibold uppercase tracking-wider">
+                <a href="index.html" class="text-neutral-400 hover:text-white transition">Home</a>
+                <a href="experience.html" class="text-neutral-400 hover:text-white transition">Experience</a>
+                <a href="endeavors.html" class="text-neutral-400 hover:text-white transition">Endeavors</a>
+                <a href="contact.html" class="bg-white text-neutral-950 px-4 py-2 rounded-sm hover:bg-neutral-300 transition font-bold">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Header -->
+    <section class="bg-grid-pattern border-b-2 border-neutral-800 py-16">
+        <div class="max-w-6xl mx-auto px-6">
+            <span class="text-xs font-mono tracking-widest text-neutral-300 uppercase border-2 border-neutral-600 px-3 py-1 bg-neutral-900 font-bold">
+                Direct Engagement
+            </span>
+            <h1 class="text-4xl font-black text-white uppercase mt-4">Initiate Consultation</h1>
+            <p class="text-neutral-300 text-sm max-w-2xl mt-2 leading-relaxed">
+                Connect directly with principal leadership to discuss industrial marketing strategy, technical search optimization, lead generation, or sponsorship opportunities.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <section class="max-w-6xl mx-auto px-6 py-16">
+        <div class="grid md:grid-cols-12 gap-12">
+            
+            <!-- Left Column: Direct Info & Expectations -->
+            <div class="md:col-span-5 space-y-8">
+                
+                <div class="border-2 border-neutral-500 bg-neutral-900 p-8 rounded-sm shadow-xl">
+                    <h2 class="text-xs font-mono uppercase tracking-widest text-neutral-400 font-bold mb-4 border-b border-neutral-800 pb-2">Direct Contact Information</h2>
+                    
+                    <div class="space-y-6 text-xs">
+                        <div>
+                            <span class="text-neutral-400 font-mono text-[10px] block uppercase">Principal Operator</span>
+                            <strong class="text-white text-sm block mt-0.5">Dustin Flynn</strong>
+                        </div>
+
+                        <div>
+                            <span class="text-neutral-400 font-mono text-[10px] block uppercase">Location Base</span>
+                            <strong class="text-white text-sm block mt-0.5">Fishers, Indiana</strong>
+                            <span class="text-neutral-400 text-[11px] block mt-0.5">Serving industrial B2B clients nationwide</span>
+                        </div>
+
+                        <div>
+                            <span class="text-neutral-400 font-mono text-[10px] block uppercase">Direct Electronic Mail</span>
+                            <strong class="text-white text-sm block mt-0.5">dustin@deltafoxtrotims.com</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Response Commitment Card -->
+                <div class="border-2 border-neutral-600 bg-neutral-900/60 p-6 rounded-sm">
+                    <h3 class="text-xs font-mono uppercase text-white font-bold mb-3 border-b border-neutral-800 pb-2">Our Engagement Protocol</h3>
+                    <ul class="space-y-3 text-xs text-neutral-300">
+                        <li class="flex items-start gap-2">
+                            <span class="text-white font-mono font-bold">01.</span>
+                            <span>Direct response from senior leadership within 1 business day.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-white font-mono font-bold">02.</span>
+                            <span>Initial 30-minute discovery call to evaluate goals and capabilities alignment.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-white font-mono font-bold">03.</span>
+                            <span>No pushy sales reps—just transparent tactical discussion.</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Right Column: Interactive Consultation Form -->
+            <div class="md:col-span-7">
+                <div class="bg-neutral-900 border-2 border-neutral-500 p-8 sm:p-10 rounded-sm bg-dots-pattern shadow-2xl">
+                    <h2 class="text-xl font-black text-white uppercase mb-2">Send an Inquiry</h2>
+                    <p class="text-neutral-300 text-xs mb-8">Fill out the details below to outline your objectives or media pitch.</p>
+
+                    <form action="https://formspree.io/f/placeholder" method="POST" class="space-y-6">
+                        <div class="grid sm:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-[11px] font-mono uppercase text-neutral-300 mb-2">Full Name *</label>
+                                <input type="text" name="name" required class="w-full bg-neutral-950 border-2 border-neutral-700 rounded-sm px-4 py-3 text-sm text-white focus:outline-none focus:border-white transition">
+                            </div>
+                            <div>
+                                <label class="block text-[11px] font-mono uppercase text-neutral-300 mb-2">Work Email *</label>
+                                <input type="email" name="email" required class="w-full bg-neutral-950 border-2 border-neutral-700 rounded-sm px-4 py-3 text-sm text-white focus:outline-none focus:border-white transition">
+                            </div>
+                        </div>
+
+                        <div class="grid sm:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-[11px] font-mono uppercase text-neutral-300 mb-2">Company / Organization *</label>
+                                <input type="text" name="company" required class="w-full bg-neutral-950 border-2 border-neutral-700 rounded-sm px-4 py-3 text-sm text-white focus:outline-none focus:border-white transition">
+                            </div>
+                            <div>
+                                <label class="block text-[11px] font-mono uppercase text-neutral-300 mb-2">Inquiry Type *</label>
+                                <select name="inquiry_type" class="w-full bg-neutral-950 border-2 border-neutral-700 rounded-sm px-4 py-3 text-sm text-white focus:outline-none focus:border-white transition">
+                                    <option value="lead-gen">B2B Lead Generation</option>
+                                    <option value="seo">Industrial SEO & Search</option>
+                                    <option value="brand">Brand Strategy & Positioning</option>
+                                    <option value="sponsorship">Supported Endeavors / Sponsorship Pitch</option>
+                                    <option value="general">General Consultation</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-[11px] font-mono uppercase text-neutral-300 mb-2">Project / Media Details *</label>
+                            <textarea name="message" rows="5" placeholder="Please describe your current challenges, timeline, or sponsorship pitch..." required class="w-full bg-neutral-950 border-2 border-neutral-700 rounded-sm px-4 py-3 text-sm text-white focus:outline-none focus:border-white transition"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full bg-white hover:bg-neutral-300 text-neutral-950 font-black py-4 rounded-sm text-xs uppercase tracking-widest transition">
+                            Submit Inquiry
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t-2 border-neutral-800 text-center py-8 text-neutral-500 text-xs font-mono">
+        <p>&copy; Delta Foxtrot Industrial Marketing Service. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
