@@ -23,25 +23,19 @@
         }
     </script>
     <style>
-        .bg-grid-pattern {
-            background-size: 40px 40px;
-            background-image: 
-                linear-gradient(to right, rgba(107, 107, 77, 0.15) 1px, transparent 1px),
-                linear-gradient(to bottom, rgba(107, 107, 77, 0.15) 1px, transparent 1px);
-        }
-        .bg-dots-pattern {
-            background-size: 20px 20px;
-            background-image: radial-gradient(circle, rgba(198, 191, 165, 0.15) 1px, transparent 1px);
+        .bg-topo-pattern {
+            background-color: #000000;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600' viewBox='0 0 600 600'%3E%3Cpath d='M0,150 C100,200 200,100 300,180 C400,260 500,120 600,200 M0,300 C150,220 250,380 400,310 C500,260 550,340 600,320 M0,450 C120,400 220,500 350,440 C450,380 520,480 600,430' stroke='%236B6B4D' stroke-width='1.5' stroke-opacity='0.18' fill='none'/%3E%3Cpath d='M0,80 C120,130 180,40 320,100 C420,150 480,60 600,110 M0,230 C80,310 220,200 340,270 C460,330 510,210 600,260 M0,380 C140,460 280,350 420,410 C510,450 560,390 600,400' stroke='%236B6B4D' stroke-width='1' stroke-opacity='0.12' stroke-dasharray='4,4' fill='none'/%3E%3C/svg%3E");
         }
     </style>
 </head>
-<body class="bg-df-black text-df-gray font-sans antialiased selection:bg-df-olive selection:text-df-white">
+<body class="bg-topo-pattern text-df-gray font-sans antialiased selection:bg-df-olive selection:text-df-white">
 
     <!-- Header / Navigation -->
     <header class="border-b-2 border-df-olive/60 bg-df-black/95 sticky top-0 z-50 backdrop-blur">
         <div class="max-w-6xl mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
             <a href="index.html" class="flex items-center gap-4">
-                <img src="DFIMS_NL_R_V2_290x290.png" alt="Delta Foxtrot Industrial Marketing Service Logo" class="h-12 w-auto">
+                <img src="DFIMS Vertical.png" alt="Delta Foxtrot Industrial Marketing Service Logo" class="h-10 w-auto invert">
                 <span class="text-sm font-bold tracking-wider text-df-white uppercase border-l-2 border-df-olive pl-4 py-1">
                     Delta Foxtrot Industrial Marketing Service
                 </span>
@@ -57,7 +51,7 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="relative bg-grid-pattern border-b-2 border-df-olive/40">
+    <section class="relative border-b-2 border-df-olive/40">
         <div class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-12 gap-12 items-center">
             
             <div class="md:col-span-7">
@@ -80,8 +74,8 @@
                 </div>
             </div>
             
-            <!-- Tactical Emblem Display Box -->
-            <div class="md:col-span-5 bg-df-black border-2 border-df-olive p-8 rounded-sm relative shadow-2xl">
+            <!-- Tactical Feature Display Box -->
+            <div class="md:col-span-5 bg-df-black/90 border-2 border-df-olive p-8 rounded-sm relative shadow-2xl backdrop-blur-sm">
                 <div class="flex items-center justify-between border-b-2 border-df-olive/60 pb-3 mb-6">
                     <h3 class="text-xs font-mono uppercase tracking-wider text-df-tan font-bold">
                         THE DFIMS ADVANTAGE
@@ -90,7 +84,9 @@
                 </div>
 
                 <div class="flex justify-center mb-6">
-                    <img src="DFIMS_NL_R_V2_595x595.png" alt="DFIMS Round Tactical Logo" class="w-48 h-48 rounded-full border-2 border-df-tan shadow-lg">
+                    <div class="p-4 border-2 border-df-olive bg-df-black rounded-sm shadow-xl">
+                        <img src="DFIMS Stacked.png" alt="DFIMS Stacked Logo" class="w-40 h-auto invert opacity-95">
+                    </div>
                 </div>
 
                 <p class="text-df-gray text-xs leading-relaxed mb-6 text-center">
@@ -113,7 +109,7 @@
     </section>
 
     <!-- Services / Core Solutions -->
-    <section class="py-20 border-b-2 border-df-olive/40 bg-df-black">
+    <section class="py-20 border-b-2 border-df-olive/40">
         <div class="max-w-6xl mx-auto px-6">
             <div class="max-w-3xl">
                 <h2 class="text-xs font-mono uppercase tracking-widest text-df-tan font-bold">Core Capabilities</h2>
@@ -121,7 +117,7 @@
             </div>
 
             <div class="grid md:grid-cols-3 gap-8 mt-12">
-                <div class="border-2 border-df-olive p-8 bg-df-black rounded-sm relative hover:border-df-tan transition shadow-lg">
+                <div class="border-2 border-df-olive p-8 bg-df-black/90 rounded-sm relative hover:border-df-tan transition shadow-lg">
                     <div class="w-8 h-8 bg-df-tan text-df-black font-mono font-bold text-xs flex items-center justify-center mb-6">01</div>
                     <h4 class="text-base font-bold text-df-white uppercase tracking-wide mb-3">Lead Generation</h4>
                     <p class="text-df-gray text-xs leading-relaxed">
@@ -129,7 +125,7 @@
                     </p>
                 </div>
 
-                <div class="border-2 border-df-olive p-8 bg-df-black rounded-sm relative hover:border-df-tan transition shadow-lg">
+                <div class="border-2 border-df-olive p-8 bg-df-black/90 rounded-sm relative hover:border-df-tan transition shadow-lg">
                     <div class="w-8 h-8 bg-df-tan text-df-black font-mono font-bold text-xs flex items-center justify-center mb-6">02</div>
                     <h4 class="text-base font-bold text-df-white uppercase tracking-wide mb-3">Industrial SEO</h4>
                     <p class="text-df-gray text-xs leading-relaxed">
@@ -137,7 +133,7 @@
                     </p>
                 </div>
 
-                <div class="border-2 border-df-olive p-8 bg-df-black rounded-sm relative hover:border-df-tan transition shadow-lg">
+                <div class="border-2 border-df-olive p-8 bg-df-black/90 rounded-sm relative hover:border-df-tan transition shadow-lg">
                     <div class="w-8 h-8 bg-df-tan text-df-black font-mono font-bold text-xs flex items-center justify-center mb-6">03</div>
                     <h4 class="text-base font-bold text-df-white uppercase tracking-wide mb-3">Brand Positioning</h4>
                     <p class="text-df-gray text-xs leading-relaxed">
@@ -152,8 +148,8 @@
     <section class="max-w-6xl mx-auto px-6 py-20 border-b-2 border-df-olive/40">
         <div class="grid md:grid-cols-12 gap-12 items-center">
             <div class="md:col-span-4 flex justify-center">
-                <div class="p-4 border-2 border-df-tan bg-df-black rounded-sm shadow-xl">
-                    <img src="DFIMS_NL_R_V2_595x595.png" alt="Delta Foxtrot Tactical Logo" class="w-48 h-48 rounded-full">
+                <div class="p-6 border-2 border-df-tan bg-df-black/90 rounded-sm shadow-xl">
+                    <img src="DFIMS Stacked.png" alt="Delta Foxtrot Logo" class="w-48 h-auto invert opacity-95">
                 </div>
             </div>
             <div class="md:col-span-8">
@@ -163,7 +159,7 @@
                     Delta Foxtrot Industrial Marketing Service is led by owner Dustin Flynn. Built on a trajectory spanning military service, shop-floor manufacturing, and executive corporate operations, DFIMS delivers marketing solutions grounded in practical industry knowledge.
                 </p>
                 <div class="mt-6">
-                    <a href="experience.html" class="inline-block border-2 border-df-olive text-df-tan font-bold px-6 py-3 rounded-sm text-xs uppercase tracking-wider hover:bg-df-olive hover:text-df-white transition">
+                    <a href="experience.html" class="inline-block border-2 border-df-olive bg-df-black text-df-tan font-bold px-6 py-3 rounded-sm text-xs uppercase tracking-wider hover:bg-df-olive hover:text-df-white transition">
                         Read Full Background & Strategy →
                     </a>
                 </div>
@@ -172,7 +168,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="border-t-2 border-df-olive/40 text-center py-8 text-df-tan text-xs font-mono">
+    <footer class="border-t-2 border-df-olive/40 text-center py-8 text-df-tan text-xs font-mono bg-df-black">
         <p>&copy; Delta Foxtrot Industrial Marketing Service. All rights reserved.</p>
     </footer>
 
